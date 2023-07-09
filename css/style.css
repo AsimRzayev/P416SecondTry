@@ -1,0 +1,52 @@
+.up {
+	width: 50px;
+	height: 50px;
+	bottom: 12px;
+	right: 12px;
+	opacity: 0;
+	transition: 0.5s opacity;
+}
+.up.show {
+	opacity: 1;
+}
+/*--------------BANER --------------*/
+.banner {
+	height: 70vh;
+	position: relative;
+}
+.banner img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.banner::after {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+}
+.banner-text {
+	position: relative;
+	z-index: 1;
+	color: white;
+}
+/*--------------END OF BANER --------------*/
+
+/*--------------SERVICES --------------*/
+.blogs {
+	padding: 60px 0px;
+	background-color: #f9fafb;
+}
+
+footer {
+	background-color: #353638;
+	padding-top: 60px;
+}
+footer .footer-bottom {
+	background-color: #2b2c2e;
+}
